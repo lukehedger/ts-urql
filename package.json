@@ -1,0 +1,37 @@
+{
+  "name": "ts-urql",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup --config",
+    "dev": "concurrently 'sirv public --single --dev' 'rollup --config --watch'"
+  },
+  "dependencies": {
+    "graphql": "14.5.4",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "urql": "1.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "16.9.2",
+    "@types/react-dom": "16.9.0",
+    "@typescript-eslint/eslint-plugin": "1.x",
+    "@typescript-eslint/parser": "1.x",
+    "concurrently": "4.1.2",
+    "eslint": "6.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-react": "7.x",
+    "eslint-plugin-react-hooks": "1.x",
+    "rollup": "1.20.3",
+    "rollup-plugin-commonjs": "10.1.0",
+    "rollup-plugin-livereload": "1.0.1",
+    "rollup-plugin-node-resolve": "5.2.0",
+    "rollup-plugin-replace": "2.2.0",
+    "rollup-plugin-terser": "5.1.1",
+    "rollup-plugin-typescript": "1.0.1",
+    "sirv-cli": "0.4.4",
+    "typescript": "3.6.2"
+  }
+}
